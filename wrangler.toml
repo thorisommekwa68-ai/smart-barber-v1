@@ -1,0 +1,13 @@
+name = "smart-barber-v1"
+main = "backend/src/cloudflare-worker.js"
+compatibility_date = "2026-11-23"
+
+[vars]
+MOCK_AUTH_ENABLED = "true"
+CORS_ALLOWED_ORIGINS = "http://localhost:5173,http://localhost:5174,http://localhost:5175"
+MAX_REQUEST_BODY_BYTES = "1048576"
+
+# Add D1 bindings through environment-specific configuration:
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "smart-barber"

@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build and package-manager output
+dist/
+coverage/
+.vite/
+.npm/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+*.log
+
+# Supabase local state
+.supabase/
+
+# Android/Capacitor generated output
+android/.gradle/
+android/app/build/
+android/build/
+
+# Local credentials and certificates
+*.pem
+*.key
+*.p12
+*.jks

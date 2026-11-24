@@ -1,0 +1,54 @@
+:root {
+  --color-primary: #101820;
+  --color-primary-2: #17232e;
+  --color-secondary: #d4af37;
+  --color-background: #f5f6f8;
+  --color-surface: #ffffff;
+  --color-text: #20252b;
+  --color-muted: #777f88;
+  --color-line: #e5e7ea;
+  --color-danger: #a84d4d;
+  --font-ui: "DM Sans", "Segoe UI", sans-serif;
+  --font-display: "Manrope", "DM Sans", sans-serif;
+  --radius-md: 12px;
+  --shadow-sm: 0 6px 18px rgba(16, 24, 32, 0.06);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c5cbd1 transparent;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  transition: border-color 160ms ease, background 160ms ease, color 160ms ease,
+    box-shadow 160ms ease, transform 160ms ease;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid rgba(212, 175, 55, 0.42);
+  outline-offset: 2px;
+}
+
+.card,
+.metric,
+.panel,
+.plan-card,
+.drawer {
+  border-color: var(--color-line) !important;
+  box-shadow: var(--shadow-sm);
+}
+
+.badge,
+.demo-pill,
+.pill {
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
